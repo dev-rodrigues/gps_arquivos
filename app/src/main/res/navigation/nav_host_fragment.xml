@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_fragment"
+    app:startDestination="@id/coordenadasFragment">
+    <fragment
+        android:id="@+id/coordenadasFragment"
+        android:name="br.edu.infnet.tp1carloshenrique.ui.CoordenadasFragment"
+        android:label="fragment_coordenadas"
+        tools:layout="@layout/fragment_coordenadas" />
+    <fragment
+        android:id="@+id/registrosFragment"
+        android:name="br.edu.infnet.tp1carloshenrique.ui.RegistrosFragment"
+        android:label="fragment_registros"
+        tools:layout="@layout/fragment_registros" />
+</navigation>
